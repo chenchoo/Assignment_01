@@ -1,0 +1,34 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+/* asterisk up top refers to everything */
+/* block of text up top resets all CSS to zero */
+
+body{
+  margin: 40px;
+  padding-right: 200px;
+  /* border vs padding? */
+  font-family: 'Roboto Mono' ;
+  font-weight: 100;
+  font-size: 13px;
+  color: #fff;
+  background: #000;
+}
+
+h1{
+  font-size: 13px;
+  font-weight: 300;
+  padding-top: 20px;
+}
+
+section{
+  padding-top: 20px;
+}
+
+footer{
+  position: fixed;
+  bottom: 40px;
+  /* Is this the right way? */
+}
