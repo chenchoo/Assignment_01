@@ -18,9 +18,20 @@ body{
 }
 
 h1{
-  font-size: 13px;
-  font-weight: 300;
-  padding-top: 20px;
+	font-size: 13px;
+	font-weight: 300;
+	padding-top: 20px;
+}
+
+h2{
+	font-size: 13px;
+	font-weight: 300;
+  padding-top: 40px;
+}
+
+img{
+	padding-top: 20px;
+	opacity: 0.75;
 }
 
 section{
@@ -30,5 +41,6 @@ section{
 footer{
   position: fixed;
   bottom: 40px;
-  /* Is this the right way? */
+  /* Is this the right way to position at bottom? */
+	color: #fff;
 }
