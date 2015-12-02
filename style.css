@@ -1,6 +1,8 @@
 *{
 	margin: 0;
 	padding: 0;
+	box-sizing: border-box;
+	/* border-box removes default margin and padding */
 }
 
 /* asterisk up top refers to everything */
@@ -8,13 +10,21 @@
 
 body{
   margin: 40px;
-  padding-right: 200px;
-  /* border vs padding? */
+  padding-right: 400px;
   font-family: 'Roboto Mono' ;
   font-weight: 100;
   font-size: 13px;
   color: #fff;
   background: #000;
+}
+
+a{
+	color: #fff;
+	/* text-decoration: none; */
+}
+
+a:hover {
+    color: hotpink;
 }
 
 h1{
@@ -39,7 +49,7 @@ section{
 }
 
 footer{
-  position: fixed;
+  position: absolute;
   bottom: 40px;
   /* Is this the right way to position at bottom? */
 	color: #fff;
