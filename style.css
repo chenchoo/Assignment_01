@@ -10,27 +10,42 @@
 
 body{
   margin: 40px;
-  padding-right: 400px;
+	padding-right: 200px;
   font-family: 'Roboto Mono' ;
   font-weight: 100;
   font-size: 13px;
+	line-height: 1.5;
   color: #fff;
   background: #000;
 }
 
-a{
+nav {
+	text-align: center;
 	color: #fff;
-	/* text-decoration: none; */
+}
+
+a{
+	color: inherit;
 }
 
 a:hover {
-    color: hotpink;
+  color: lime;
+}
+
+#content1{
+	width: 400px;
+	float: left;
+}
+#content2{
+	float: right;
+	padding-top: 20px;
 }
 
 h1{
-	font-size: 13px;
+	font-size: 18px;
 	font-weight: 300;
-	padding-top: 20px;
+	text-align: center;
+	padding-top: 40px;
 }
 
 h2{
@@ -39,18 +54,31 @@ h2{
   padding-top: 40px;
 }
 
+h3{
+	font-size: 13px;
+	font-weight: 300;
+  padding-top: 40px;
+}
+
+h4{
+	font-size: 13px;
+	font-weight: 100;
+	padding-top: 40px;
+}
+
+
 img{
 	padding-top: 20px;
 	opacity: 0.75;
 }
 
-section{
-  padding-top: 20px;
-}
 
 footer{
-  position: absolute;
+  position: fixed;
   bottom: 40px;
-  /* Is this the right way to position at bottom? */
 	color: #fff;
+}
+
+div.footer{
+	padding-top: 60px;
 }
